@@ -199,7 +199,6 @@ body {
 
 .ingredients-list-item:nth-child(4n + 3) {
   background-color: #1e1823;
-  border: 1px solid #1e1823;
 }
 
 .ingredients-list-img {

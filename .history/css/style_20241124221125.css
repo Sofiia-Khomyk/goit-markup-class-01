@@ -185,21 +185,9 @@ body {
   padding: 28px 32px;
   border-radius: 15px;
   border: 1px solid #fd9222;
-  color: #ffffff;
 }
-
-.ingredients-list-item:nth-child(even) {
-  background-color: #ffffff;
-  color: #111111;
-}
-
-.ingredients-list-item:nth-child(4n + 1) {
-  background-color: #fd9222;
-}
-
-.ingredients-list-item:nth-child(4n + 3) {
-  background-color: #1e1823;
-  border: 1px solid #1e1823;
+.ingredients-list-item: :nth-child(even) {
+  background-color: #ffff;
 }
 
 .ingredients-list-img {
