@@ -385,11 +385,9 @@ body {
   display: flex;
   justify-content: space-between;
   padding-bottom: 50px;
-  border-bottom: 1px solid rgba(255, 255, 255, 0.1);
-  width: 1136px;
+  border-bottom: ;
 }
 .page-footer-title {
-  max-width: 300px;
   font-weight: 500;
   font-size: 28px;
   line-height: 1.21;
@@ -402,12 +400,9 @@ body {
   font-weight: 500;
   font-size: 14px;
   line-height: 1.29;
-  margin-bottom: 14px;
-}
-.contact-list-item:not(:last-child) {
-  margin-bottom: 4px;
 }
 .contact-list-link {
+  font-weight: 400;
   font-size: 14px;
   line-height: 1.29;
   letter-spacing: -0.02em;

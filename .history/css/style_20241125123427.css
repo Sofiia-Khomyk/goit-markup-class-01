@@ -65,7 +65,6 @@ body {
   letter-spacing: -0.03em;
   text-transform: uppercase;
   text-align: center;
-  margin-bottom: 50px;
 }
 .accent-color {
   color: #fd9222;
@@ -115,6 +114,13 @@ body {
   background-color: #1e1823;
   border-radius: 30px;
 }
+.container {
+  padding-bottom: 375px;
+  padding-bottom: 46px;
+  padding-left: 56px;
+  padding-right: 56px;
+  color: #ffffff;
+}
 
 .hero-container {
   padding-top: 381px;
@@ -125,64 +131,31 @@ body {
 }
 
 .main-title {
-  max-width: 484px;
   font-weight: 500;
   font-size: 28px;
   line-height: 1.21;
   letter-spacing: -0.03em;
-  margin-bottom: 32px;
   color: #ffffff;
 }
-.hero-content-wrapper {
-  display: flex;
-  align-items: center;
-}
-
 .by-now-btn {
-  max-width: 144px;
-  height: 45px;
-  border-radius: 100px;
-  padding: 14px 40px;
   font-weight: 600;
   font-size: 14px;
-  background-color: #fd9222;
-  border: none;
+  background: #fd9222;
   color: #ffffff;
-  margin-right: 14px;
 }
-.by-now-btn:hover,
-.by-now-btn:focus {
-  background-color: #fcf1e0;
-  color: #fd9222;
-}
-
 .how-made-link {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  max-width: 183px;
-  height: 45px;
-  padding-left: 20px;
-  padding-right: 20px;
-  border: 1px solid #ffffff;
-  border-radius: 100px;
   font-weight: 600;
   font-size: 14px;
-  text-align: center;
-  color: #ffffff;
 }
 .how-made-link:hover,
 .how-made-link:focus {
   color: #fd9222;
-  border-color: #fd9222;
 }
 .scroll-down-link {
   font-weight: 500;
   font-size: 14px;
   line-height: 1.29;
   letter-spacing: -0.03em;
-  margin-left: auto;
-  color: #ffffff;
 }
 .scroll-down-link:hover,
 .scroll-down-link:focus {
@@ -192,31 +165,13 @@ body {
 /*/HERO STYLES */
 
 /* BENEFITS STYLES */
-
-.benefits-section {
-  background: #1e1823;
-  color: #ffffff;
-  margin-top: 72px;
-  margin-bottom: 50px;
-}
-.benefits-container {
-  padding-left: 34px;
-  padding-right: 34px;
-}
-.benefits-list {
-  display: flex;
-  column-gap: 88px;
-}
-.benefits-list-item {
-  width: calc((100% - 2 * 88px) / 3);
-}
 .benefits-list-title {
   font-weight: 600;
   font-size: 18px;
-  margin-bottom: 18px;
   color: #fff;
 }
 .benefits-list-text {
+  font-weight: 400;
   line-height: 1.29;
   font-size: 14px;
   letter-spacing: -0.02em;
@@ -284,27 +239,10 @@ body {
 /*/INGREDIENTS STYLES */
 
 /* HOW ITS MADE STYLES */
-
-.how-made-content-wrapper {
-  display: flex;
-  column-gap: 20px;
-}
-
-.how-made-text-wrapper {
-  flex-grow: 1;
-  padding: 32px;
-  border-radius: 15px;
-  background-color: #ffffff;
-}
-
 .how-made-title {
   font-weight: 600;
   font-size: 18px;
   line-height: 1.33;
-  margin-bottom: 28px;
-}
-.how-made-list {
-  padding-right: 26px;
 }
 .how-made-list-item {
   font-weight: 400;
@@ -312,43 +250,17 @@ body {
   line-height: 1.29;
   letter-spacing: -0.02em;
 }
-.how-made-list-item:not(:last-child) {
-  margin-bottom: 24px;
-}
 /*/HOW ITS MADE STYLES  */
 
 /* REVIEWS STYLES */
-
-.reviews-section {
-  padding-bottom: 100px;
-}
-.reviews-list {
-  display: flex;
-  column-gap: 28px;
-  margin-bottom: 50px;
-}
-.reviews-list-item {
-  width: calc((100% - 56px) / 3);
-  padding: 56px 24px 24px;
-  background-color: #ffffff;
-  border: 1px solid rgba(17, 17, 17, 0.1);
-  border-radius: 15px;
-  box-shadow: 0 9px 100px 0 rgba(17, 17, 17, 0.03);
-}
-.reviews-list-avatar {
-  margin-bottom: 18px;
-  margin-left: auto;
-  margin-right: auto;
-}
-
 .reviews-list-name {
   font-weight: 600;
   font-size: 18px;
   line-height: 1.33;
   text-align: center;
-  margin-bottom: 24px;
 }
 .reviews-list-text {
+  font-weight: 400;
   font-size: 14px;
   line-height: 1.29;
   letter-spacing: -0.02em;
@@ -356,17 +268,8 @@ body {
   color: rgba(17, 17, 17, 0.7);
 }
 .leave-reviews-btn {
-  display: block;
-  max-width: 222px;
-  padding: 14px 40px;
-  margin-left: auto;
-  margin-right: auto;
-  border: 1px solid #fd9222;
-  border-radius: 100px;
   font-weight: 600;
   font-size: 18px;
-  background-color: #ffffff;
-  color: #111111;
 }
 .leave-reviews-btn:hover,
 .leave-reviews-btn:focus {
@@ -377,19 +280,7 @@ body {
 /*/REVIEWS STYLES */
 
 /* FOOTER STYLES */
-.page-footer {
-  background-color: #1e1823;
-  color: #ffffff;
-}
-.page-footer-top-block {
-  display: flex;
-  justify-content: space-between;
-  padding-bottom: 50px;
-  border-bottom: 1px solid rgba(255, 255, 255, 0.1);
-  width: 1136px;
-}
 .page-footer-title {
-  max-width: 300px;
   font-weight: 500;
   font-size: 28px;
   line-height: 1.21;
@@ -402,12 +293,9 @@ body {
   font-weight: 500;
   font-size: 14px;
   line-height: 1.29;
-  margin-bottom: 14px;
-}
-.contact-list-item:not(:last-child) {
-  margin-bottom: 4px;
 }
 .contact-list-link {
+  font-weight: 400;
   font-size: 14px;
   line-height: 1.29;
   letter-spacing: -0.02em;
