@@ -73,16 +73,10 @@ body {
 /*/COMMON STYLES */
 
 /* HEADER STYLES */
-.page-header-container {
-  display: flex;
-  align-items: center;
-}
-
 .page-nav {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  flex-grow: 1;
 }
 .page-logo {
   display: flex;
@@ -92,6 +86,7 @@ body {
   line-height: 1.11;
   letter-spacing: -0.03em;
 }
+
 .page-logo-icon {
   margin-left: 4px;
 }
@@ -115,20 +110,6 @@ body {
 .menu-link:hover,
 .menu-link:focus {
   color: #fd9222;
-}
-
-.social-list-icon {
-  fill: none;
-  stroke: #111111;
-}
-
-.social-list {
-  display: flex;
-  column-gap: 18px;
-}
-.social-list-link {
-  display: block;
-  line-height: 0;
 }
 /*/HEADER STYLES */
 

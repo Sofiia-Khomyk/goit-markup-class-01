@@ -73,16 +73,10 @@ body {
 /*/COMMON STYLES */
 
 /* HEADER STYLES */
-.page-header-container {
-  display: flex;
-  align-items: center;
-}
-
 .page-nav {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  flex-grow: 1;
 }
 .page-logo {
   display: flex;
@@ -115,20 +109,6 @@ body {
 .menu-link:hover,
 .menu-link:focus {
   color: #fd9222;
-}
-
-.social-list-icon {
-  fill: none;
-  stroke: #111111;
-}
-
-.social-list {
-  display: flex;
-  column-gap: 18px;
-}
-.social-list-link {
-  display: block;
-  line-height: 0;
 }
 /*/HEADER STYLES */
 
