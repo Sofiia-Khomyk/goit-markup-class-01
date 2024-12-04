@@ -648,14 +648,5 @@ body {
   background-color: transparent;
   padding: 22px 24px;
   resize: none;
-  transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
-}
-
-.review-form-comment::placeholder {
-  color: rgba(64, 64, 64, 0.3);
-}
-.review-form-comment:focus {
-  outline: none;
-  border-color: #fd9222;
 }
 /*/MODAL WINDOW STYLE  */

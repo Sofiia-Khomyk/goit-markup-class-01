@@ -648,7 +648,7 @@ body {
   background-color: transparent;
   padding: 22px 24px;
   resize: none;
-  transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  transition: ;
 }
 
 .review-form-comment::placeholder {
