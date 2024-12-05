@@ -556,13 +556,6 @@ body {
   width: 100%;
   height: 100%;
   background-color: rgba(0, 0, 0, 0.5);
-  opacity: 0;
-  pointer-events: none;
-  transition: opacity 250ms cubic-bezier(0.4, 0, 0.2, 1);
-}
-.modal-backdrop.is-open {
-  opacity: 1;
-  pointer-events: auto;
 }
 
 .modal {
@@ -681,7 +674,8 @@ body {
   border-color: #fd9222;
   fill: #ffffff;
 }
-.review-form-checkbox:focus
+.review-form-checkbox
+  :focus
   + .review-form-checkbox-label
   > .review-form-custom-checkbox {
   border-color: #fd9222;
@@ -700,25 +694,5 @@ body {
 }
 .review-form-policy-link {
   text-decoration: underline;
-}
-.review-form-submit-btn {
-  max-width: 117px;
-  height: 45px;
-  font-weight: 600;
-  font-size: 14px;
-  color: #fff;
-  border-radius: 100px;
-  padding: 14px 40px;
-  margin-left: auto;
-  margin-right: auto;
-  border: none;
-  background-color: #fd9222;
-  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1),
-    background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
-}
-.review-form-submit-btn:hover,
-.review-form-submit-btn:focus {
-  color: #fd9222;
-  background-color: #fcf1e0;
 }
 /*/MODAL WINDOW STYLE  */
