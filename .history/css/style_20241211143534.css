@@ -541,11 +541,6 @@ body {
 .contact-list-link:focus {
   color: #fd9222;
 }
-.page-footer-bottom-block {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-}
 .subscribe-form {
   display: flex;
   column-gap: 8px;
